@@ -2,5 +2,5 @@ import 'dart:io';
 
 void main() {
   String? palavra = (stdin.readLineSync()!);
-  print(palavra.length);
+  print("A palavra ${palavra} tem ${palavra.length} letras");
 }
